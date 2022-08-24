@@ -48,7 +48,7 @@ const Signup = (props) => {
       email: enteredEmail,
       password: enteredPassword
     }
-    await fetch('https://react-project-demo-fcab4-default-rtdb.firebaseio.com/users.json', {
+    await fetch('Your Firebase Link would be pasted here or any bankend you are using', {
       method: "POST",
       body: JSON.stringify(userData),
       Headers: {
