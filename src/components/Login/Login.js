@@ -45,7 +45,7 @@ const Login = (props) => {
 
   async function submitHandler(event) {
     event.preventDefault();
-    const response = await fetch('https://react-project-demo-fcab4-default-rtdb.firebaseio.com/users.json');
+    const response = await fetch('Your Firebase Link would be pasted here or any bankend you are using');
     if (response.ok) {
       const data = await response.json();
       if (data !== null) {
